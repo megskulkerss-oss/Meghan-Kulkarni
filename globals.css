@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --accent-blue: 56 189 248; /* sky-400-ish */
+  --accent-pink: 244 114 182; /* pink-400-ish */
+}
+
+::selection{
+  background: rgb(var(--accent-pink) / 0.35);
+}
+
+a{
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
